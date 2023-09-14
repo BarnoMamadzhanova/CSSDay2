@@ -3,10 +3,15 @@
 </style>
 
 .container {
+    font-family: font-family: 'Happy Monkey', cursive;;
     width: 800px;
-    margin: auto;
+    margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
+}
+.hero img {
+    padding-right: 50px;
+    width: 100%;
 }
 p, li {
     color: #707070;
@@ -26,10 +31,12 @@ h3 {
     color: #474747;
 }
 
-section {
-    color: #f4f4f4;
+.hero {
+    width: 800px;
+    margin: auto;
+    background-color: #f4f4f4;
     text-align: center;
-    text-shadow: 5px 0px 0px #f4f4f4;
+    /* text-shadow: 1px 0px 0px #f4f4f4; */
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -46,10 +53,6 @@ li {
 
 footer p {
     text-align: center;
-}
-
-* {
-    font-family: font-family: 'Happy Monkey', cursive;;
 }
 
 .rating {
