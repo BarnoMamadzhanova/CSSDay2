@@ -1,0 +1,88 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=PT+Sans&display=swap');
+</style>
+
+.container {
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'PT Sans', sans-serif;
+    background-color: lightcoral;
+    padding: 1%;
+}
+
+#navigation {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1 ;
+    margin-bottom: 5vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    gap: 2%;
+}
+
+#navigation > a {
+    color: white;
+    font-size: 16pt;
+    padding-left: 80px;
+    padding-top: 40px;
+    line-height: 80%;
+    letter-spacing: 2px;
+}
+
+#image {
+    max-width: 400px;
+    padding: 2%;
+}
+
+.hero {
+    color: darkolivegreen;
+    text-shadow: 1px 1px 20px #7eb2d0;
+    font-size: 20pt;
+    line-height: 100%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.main > p {
+    padding: 2%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    line-height: 100%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 14pt;
+}
+
+#content {
+    max-width: 800px;
+    padding-left: 250px;
+}
+
+h3 {
+    color: darkolivegreen;
+    font-size: 20pt;
+    text-align: right;
+    padding-right: 2%;
+}
+
+span {
+    text-align: right;
+    font-size: 14pt;
+    font-style: italic;
+    padding-left: 70%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12pt;
+    color: grey;
+}
+
+form[name="form"] input[type="button"] {
+    width: 100px;
+}
+
