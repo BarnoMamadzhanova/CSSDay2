@@ -1,18 +1,19 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=PT+Sans&display=swap');
-</style>
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=PT+Sans&display=swap');
+
 
 .container {
     font-family: 'Happy Monkey', cursive;
     font-family: 'PT Sans', sans-serif;
-    background-color: lightcoral;
+    background-color: aliceblue;
     padding: 1%;
+    margin: 20px;
 }
 
 #navigation {
     position: sticky;
     top: 0;
-    width: 100%;
+    max-width: 100%;
     z-index: 1 ;
     margin-bottom: 5vh;
     background-color: cadetblue;
@@ -32,7 +33,7 @@
 }
 
 #image {
-    max-width: 400px;
+    max-width: 300px;
     padding: 2%;
 }
 
@@ -40,49 +41,79 @@
     color: darkolivegreen;
     text-shadow: 1px 1px 20px #7eb2d0;
     font-size: 20pt;
+    margin-left: 30px;
     line-height: 100%;
     word-spacing: 5px;
     letter-spacing: 2px;
+    padding-top: 20px;
 }
 
-.main > p {
-    padding: 2%;
-    text-align: justify;
+#first {
     display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    line-height: 100%;
+    flex-direction: row;
+    max-width: 80%;
+    line-height: 120%;
     word-spacing: 5px;
     letter-spacing: 2px;
-    font-size: 14pt;
+    font-size: 16pt;
+    margin-left: 30px;
+    padding-top: 20px;
 }
 
 #content {
-    max-width: 800px;
-    padding-left: 250px;
+    max-width: 60%;
+    padding-left: 100px;
 }
 
 h3 {
     color: darkolivegreen;
-    font-size: 20pt;
+    font-size: 22pt;
     text-align: right;
-    padding-right: 2%;
+    padding-right: 5%;
+    line-height: 120%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
 }
 
 span {
     text-align: right;
     font-size: 14pt;
     font-style: italic;
-    padding-left: 70%;
+    padding-left: 66%;
+    line-height: 120%;
+    word-spacing: 1px;
+}
+
+#second {
+    line-height: 120%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 16pt;
+    margin-left: 400px;
+}
+
+.form {
+    height: 40px;
 }
 
 .footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(231, 236, 241);
     text-align: center;
-    font-size: 12pt;
+    font-size: 14pt;
     color: grey;
 }
 
-form[name="form"] input[type="button"] {
-    width: 100px;
+#btn {
+    width: 150px;
+    height: 30px;
+    background-color: #7eb2d0;
+    color: white;
+    border-radius: 0.5em;
+    float: right;
+    font-size: 16px;
+    padding-right: 14px;
 }
 
